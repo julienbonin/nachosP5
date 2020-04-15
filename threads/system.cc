@@ -113,7 +113,6 @@ Initialize(int argc, char **argv)
              ASSERT(argc > 1)
              protectionScheme = atoi(*(argv + 1));
              p5 = true;
-             customArgData = 100;
              argCount = 2;
          } else {
              printf("-S was provided without argument data, ignoring.\n");
